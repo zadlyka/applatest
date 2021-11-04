@@ -1,0 +1,349 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+body {
+  background-color: #f8fcfd;
+}
+
+main {
+  margin-top: 10vh;
+}
+
+h5,
+h6 {
+  font-weight: bold;
+}
+
+.textYellow {
+  color: #fbb040;
+}
+
+.textBlue {
+  color: #4272b8;
+}
+
+.textSmall {
+  font-size: 9px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+a:focus {
+  color: #fbb040;
+}
+
+.bgColorblue {
+  background-color: #4272b8;
+}
+
+.bgColorYellow {
+  background-color: #fbb040;
+}
+
+.bgColorblueLavender {
+  background-color: #e2ecf6;
+}
+
+.btnSocial {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  padding: 0px;
+}
+
+.btnSocial:hover {
+  color: white;
+}
+
+.btnFacebook {
+  background-color: #3b5998;
+  color: white;
+}
+
+.btnTwitter {
+  background-color: #00aced;
+  color: white;
+}
+
+.btnInstagram {
+  background-color: #bc2a8d;
+  color: white;
+}
+
+nav {
+  background-color: #4272b8;
+}
+
+nav .container {
+  padding: 5px 0px;
+}
+
+.searchInput {
+  border-radius: 25px;
+  padding: 7px 12px;
+  font-size: 12px;
+  width: 40%;
+}
+
+.Input {
+  border-radius: 25px;
+  padding: 7px 12px;
+  font-size: 12px;
+}
+
+.searchInput::placeholder {
+  color: #b7b5c3;
+}
+
+.btnCircle {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  height: 30px;
+  width: 30px;
+  background-color: #fbb040;
+  color: white;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.btnCircle:hover {
+  color: white;
+}
+
+.hero > img {
+  border-radius: 10px;
+}
+
+.itemSlide {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+.itemSlide .carouselControlIcon {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  background-color: #fbb040;
+  font-size: large;
+}
+
+.itemSlide .item {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.itemSlide .item img {
+  border-radius: 10px;
+}
+
+.imagePrevSlide .carouselControlIcon {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  background-color: #fbb040;
+  font-size: large;
+}
+
+.imagePrevSlide .item img {
+  border-radius: 10px;
+}
+
+.productSlide {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+.productSlide .carouselControlIcon {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  background-color: #fbb040;
+  font-size: large;
+}
+
+.productSlide .item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.borderImage {
+  border: 1px solid #d2ecfc;
+}
+
+.imageSlide .carousel-item img {
+  border-radius: 10px;
+}
+
+.imageSlide .carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  margin-left: 0;
+}
+
+.imageSlide .carousel-indicators {
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.imageSlide .carouselControlIconImageSlide {
+  font-size: 40px;
+}
+
+.thumbnail {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnState {
+  border-radius: 35px;
+  font-size: 11px;
+  padding: 8px 20px;
+}
+
+.btnCircle {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  height: 35px;
+  width: 35px;
+  background-color: #fbb040;
+  color: white;
+  border-radius: 50%;
+  padding: 0px;
+}
+
+.btnCircle:hover {
+  color: white;
+}
+
+.btnFlag {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.btnYellowOutline {
+  background: none;
+  border: 1px solid #fbb040;
+  color: white;
+}
+
+.btnYellowOutline:hover {
+  background-color: #fbb040;
+  color: white;
+}
+
+.btnYellow {
+  background-color: #fbb040;
+  color: white;
+}
+
+.textYellow {
+  color: #fbb040;
+}
+
+.btnYellow:hover {
+  background-color: #4272b8;
+  border: 1px solid #fbb040;
+  color: white;
+}
+
+.searchInput::placeholder {
+  color: #b7b5c3;
+}
+
+.modal {
+  border-radius: 1000px !important;
+}
+
+.breadcrumb .breadcrumb-item,
+.breadcrumb .breadcrumb-item a {
+  font-size: 10px;
+  color: black;
+}
+
+.page {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+.review {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #d2ecfc;
+}
+
+.order {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+@media screen and (min-width: 240px) {
+  .searchInput {
+    width: 100px;
+  }
+
+  main {
+    margin-top: 15vh;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .searchInput {
+    width: 150px;
+  }
+
+  main {
+    margin-top: 15vh;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .searchInput {
+    width: 250px;
+  }
+
+  main {
+    margin-top: 15vh;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .searchInput {
+    width: 450px;
+  }
+
+  main {
+    margin-top: 15vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .searchInput {
+    width: 500px;
+  }
+
+  main {
+    margin-top: 15vh;
+  }
+}
